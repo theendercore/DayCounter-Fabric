@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "day_counter",
   "version": "${version}",
 
   "name": "Day Counter",
@@ -14,7 +14,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/day_counter/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -26,7 +26,6 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
