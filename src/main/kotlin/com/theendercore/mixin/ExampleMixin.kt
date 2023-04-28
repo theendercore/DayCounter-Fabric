@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin
+package com.theendercore.mixin
 
 import net.minecraft.client.gui.screen.TitleScreen
 import org.spongepowered.asm.mixin.Mixin
@@ -11,6 +11,6 @@ class ExampleMixin {
 
     @Inject(at = [At("HEAD")], method = ["init()V"])
     private fun init(info: CallbackInfo) {
-        println("This line is printed by an example mod mixin!")
+//        LOGGER.info("things $MODID")
     }
 }
